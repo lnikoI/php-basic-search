@@ -1,0 +1,19 @@
+{
+  "require": {
+    "ext-json": "*",
+    "slim/slim": "^4.14",
+    "slim/psr7": "dev-master",
+    "ext-pdo": "*",
+    "illuminate/database": "^11.34",
+    "phpoption/phpoption": "^1.9",
+    "vlucas/phpdotenv": "^5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "src\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
